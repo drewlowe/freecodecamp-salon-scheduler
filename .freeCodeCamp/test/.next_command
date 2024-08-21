@@ -103,3 +103,4 @@ __vsc_prompt_cmd_original
 ./salon.sh
 ./salon.sh
 ./salon.sh
+git add .
