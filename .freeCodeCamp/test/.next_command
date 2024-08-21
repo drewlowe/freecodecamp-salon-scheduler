@@ -104,3 +104,14 @@ __vsc_prompt_cmd_original
 ./salon.sh
 ./salon.sh
 git add .
+git commit -m "done"
+git push
+git remote add origin https://github.com/drewlowe/freecodecamp-salon-scheduler.git
+git remote rm origin
+git remote add origin https://github.com/drewlowe/freecodecamp-salon-scheduler.git
+git push
+git push --set-upstream origin main
+git remote add origin https://github.com/drewlowe/freecodecamp-salon-scheduler.git
+git push
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git add .
